@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Component {...pageProps} />
     <footer className="flex justify-center items-center h-16 bg-gray-100 text-gray-400 text-sm">
       <div className="container-center center-horizontal flex">
-        <p><Link href="https://github.com/betty2310">{"☕ My gihub"}</Link></p>
+        {/* <p><Link href="https://github.com/betty2310">{"☕ My gihub"}</Link></p> */}
         <div className='flex-1'></div>
         <div className='font-normal'>
           <Link href="/rss.xml">{"📮 RSS"}</Link>
