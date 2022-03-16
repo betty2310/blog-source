@@ -1,5 +1,6 @@
 :root {
     --font-serif: "Iowan Old Style", "Sitka Text", Palatino, "Book Antiqua", serif;
+    --font-monospace: "Iosevka", monospace;
 }
 
 h1 {
@@ -623,7 +624,7 @@ h1 {
 
 .github-theme h1,
 .github-theme h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-monospace);
 }
 
 .github-theme h1,
