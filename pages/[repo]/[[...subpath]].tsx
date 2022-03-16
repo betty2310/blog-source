@@ -199,7 +199,7 @@ const Devlog: NextPage = ({ markdown, postTitle, repo, subpath }: InferGetStatic
     .join(" ")
     .substr(0, 157) + "...";
 
-  const socialImage = postTitle ? `https://betty.blog/api/image?t=${base64_encode(postTitle)}` : 'https://betty.blog/social-image.png';
+  const socialImage = postTitle ? `https://betty.rocks/api/image?t=${base64_encode(postTitle)}` : 'https://betty.rocks/social-image.png';
   const isEntryContent = subpath.length;
 
   return (

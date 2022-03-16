@@ -7,10 +7,10 @@ import { DataService } from "../utils/data";
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     if (res) {
         const feed = new Feed({
-            title: "betty.blog",
+            title: "betty.rocks",
             description: "Betty's development blog",
-            id: "https://betty.blog",
-            link: "https://betty.block",
+            id: "https://betty.rocks",
+            link: "https://betty.rocks",
             copyright: "All rights reserved 2022, Huynh Duong",
             language: "en",
         });

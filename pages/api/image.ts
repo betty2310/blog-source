@@ -48,7 +48,7 @@ function handler(
     imageData = lruCache.get(input);
   } else {
     let [date, title] = base64_decode(input).split(" - ");
-    date = date || "betty.blog";
+    date = date || "betty.rocks";
     title = title || "everyday learning";
 
     const canvas = createCanvas(IMG_WIDTH, IMG_HEIGHT);
