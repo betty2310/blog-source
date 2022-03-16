@@ -208,7 +208,7 @@ const Devlog: NextPage = ({ markdown, postTitle, repo, subpath }: InferGetStatic
       <main className="container-center my-10">
         {!subpath && (
           <>
-            <h1 className="font-bold text-4xl mt-10 border-none"><Link href={`/${repo}`}>{repo}</Link>: Development Log</h1>
+            <h1 className="font-bold text-4xl mt-10 border-none"><Link href={`/${repo}`}>{repo}</Link>: development log ✍</h1>
             <div className="my-2 text-gray-500">-&gt; <Link href={`https://github.com/betty2310/${repo}`}><a className="hover:underline">GitHub Repository</a></Link></div>
           </>
         )}
