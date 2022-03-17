@@ -30,7 +30,11 @@
     font-weight:700;
     src:url(/fonts/Inter-BoldItalic.woff2) format("woff2")
 }
-
+@font-face{
+    font-family: "Iosevka Mono";
+    font-display:swap;
+    src:url(/fonts/Iosevka-Mono.woff) format("woff")
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
