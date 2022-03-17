@@ -13,8 +13,8 @@ const Home: NextPage = () => {
                 <h2>Contact me!</h2>
                 <p>{"In case you're interested:"}</p>
                 <ul>
-                    <li>-&gt; <Link href="https://github.com/betty2310">Find me on GitHub</Link></li>
-                    <li>-&gt; <Link href="mailto:huynh.dh2310@gmail.com">Contact me</Link></li>
+                    <li>-&gt; <Link href="https://github.com/betty2310">Find me on GitHub.</Link></li>
+                    <li>-&gt; <Link href="mailto:huynh.dh2310@gmail.com">Or send me an email!</Link></li>
                 </ul>
 
                 <h2>Development</h2>
@@ -22,8 +22,9 @@ const Home: NextPage = () => {
                 <ul>
                     <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday Learning</a></Link>: <i>I am trying to learn something everyday and write about it.</i></li>
                     <li>-&gt; <Link href="https://github.com/betty2310/dotfiles"><a className="font-bold">My dotfiles</a></Link>: <i>Become a ricer of Linux</i> 🤣</li>
-                    <li>-&gt; <Link href="https://github.com/betty2310/st"><a className="font-bold">ST terminal</a></Link>: <i>My st (suckless/simple terminal) build</i></li>
+                    <li>-&gt; <Link href="/st"><a className="font-bold">ST terminal</a></Link>: <i>My st (suckless/simple terminal) build</i></li>
                 </ul>
+                <p>{"You can see my DEVLOG in each projects, if doesn't have, please feel free to check them on GitHub."}</p>
             </main>
         </>
     )

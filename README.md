@@ -1,13 +1,5 @@
-The source code of my personal site at https://huy.rocks
+The source code of [my personal site](https://betty2310.rocks)
 
-Site structure:
+The project's posts are parsed from `https://github.com/betty2310/<project>/DEVLOG.md`.
 
-```
-- `/': Home page
-- `/<project>`: List all post from project's `DEVLOG.md`
-- `/<project>/<post>`: Detailed post for each day in `DEVLOG.md`
-```
-
-Every project defined in `utils/consts.ts` will be served as `/<project>` page.
-
-The project's posts are parsed from `https://github.com/huytd/<project>/DEVLOG.md`.
+Thanks a ton to [huytd](https://github.com/huytd)!! My site inspired by [his project](https://github.com/huytd/huy.rocks).
