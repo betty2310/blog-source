@@ -226,14 +226,14 @@
 
 .github-theme ol ol,
 .github-theme ul ol {
-  list-style-type: disc;
+  list-style-type: lower-roman;
 }
 
 .github-theme ol ol ol,
 .github-theme ol ul ol,
 .github-theme ul ol ol,
 .github-theme ul ul ol {
-  list-style-type: disc;
+  list-style-type: lower-alpha;
 }
 
 .github-theme dd {
@@ -944,7 +944,7 @@
 }
 
 .github-theme .task-list-item {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .github-theme .task-list-item + .task-list-item {
