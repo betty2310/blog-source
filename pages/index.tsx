@@ -9,7 +9,7 @@ const Home: NextPage = () => {
                 <meta name="google-site-verification" content="pSprDjtnAmX3XLxQpyoQ8lOTIpXXr9qqVsbl4A4KL4M" />
             </Head>
             <main className="container-center github-theme no-list my-10 min-h-full flex-1">
-                <p><a href="https://www.gautamkrishnar.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>{" Hello! I'm Huynh Duong (Dương Hữu Huynh in Vietnamese). Look like you've found my space on the internet."}</p>
+                <p>{"👋 Hello! I'm Huynh Duong (Dương Hữu Huynh in Vietnamese). Look like you've found my space on the internet."}</p>
                 <h2>Contact me!</h2>
                 <p>{"In case you're interested:"}</p>
                 <ul>
