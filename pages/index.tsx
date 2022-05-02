@@ -20,11 +20,9 @@ const Home: NextPage = () => {
                 <h2>Development</h2>
                 <p>{"Yeah, these are some projects I'm working on, you can find them here:"}</p>
                 <ul>
-                    <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday</a></Link>: <i>This is also my blog :v, I write everything that I want to write, like thing about what I learned,... </i></li>
-                    <li>-&gt; <Link href="/dotfiles"><a className="font-bold">My dotfiles</a></Link>: <i>Become a ricer of Linux</i> 🤣</li>
-                    <li>-&gt; <Link href="/st"><a className="font-bold">ST terminal</a></Link>: <i>My st (suckless/simple terminal) build</i></li>
+                    <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday</a></Link>: My blog - Writing about what I learned oreveryday or Writing about everything.<i></i></li>
                 </ul>
-                <p>{"You can see my DEVLOG in each projects, if doesn't have, please feel free to check them on GitHub."}</p>
+                <p>{"And so much more!!. Feel free to check them on GitHub."}</p>
             </main>
         </>
     )
