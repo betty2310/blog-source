@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                 <h2>Development</h2>
                 <p>{"Yeah, these are some projects I'm working on, you can find them here:"}</p>
                 <ul>
-                    <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday</a></Link>: My blog - Writing about what I learned oreveryday or Writing about everything.<i></i></li>
+                    <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday</a></Link>:  writing about what I learned everyday and also my blog.<i></i></li>
                 </ul>
                 <p>{"And so much more..., feel free to check them on GitHub."}</p>
             </main>
