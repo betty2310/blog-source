@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 <ul>
                     <li>-&gt; <Link href="/everyday"><a className="font-bold">Everyday</a></Link>: My blog - Writing about what I learned oreveryday or Writing about everything.<i></i></li>
                 </ul>
-                <p>{"And so much more!!. Feel free to check them on GitHub."}</p>
+                <p>{"And so much more..., feel free to check them on GitHub."}</p>
             </main>
         </>
     )
